@@ -1,0 +1,33 @@
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Magnifying Glass Lens (Glass Effect) -->
+  <circle cx="21" cy="21" r="10" fill="url(#lensGradient)" stroke="hsl(45, 100%, 71%)" stroke-width="2"/>
+  
+  <!-- Lens Reflection (Glass Highlight) -->
+  <circle cx="24" cy="18" r="3" fill="white" fill-opacity="0.3"/>
+
+  <!-- Magnifying Glass Handle -->
+  <path d="M30 30L38 38" stroke="url(#handleGradient)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M30 30L38 38" stroke="hsl(35, 100%, 65%)" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Handle Texture (Optional) -->
+  <path d="M32 32L36 36" stroke="hsl(45, 100%, 71%)" stroke-width="1" stroke-linecap="round" stroke-dasharray="2 2"/>
+
+  <!-- Shadow for Depth -->
+  <circle cx="22" cy="22" r="10" fill="black" fill-opacity="0.1"/>
+  <path d="M31 31L39 39" stroke="black" stroke-opacity="0.1" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Gradient Definitions -->
+  <defs>
+    <!-- Lens Gradient (Glass Effect) -->
+    <radialGradient id="lensGradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="hsla(45, 100%, 71%, 0.8)"/>
+      <stop offset="100%" stop-color="hsla(45, 100%, 71%, 0.2)"/>
+    </radialGradient>
+
+    <!-- Handle Gradient (3D Effect) -->
+    <linearGradient id="handleGradient" x1="0" y1="0" x2="1" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="hsl(45, 100%, 71%)"/>
+      <stop offset="100%" stop-color="hsl(35, 100%, 65%)"/>
+    </linearGradient>
+  </defs>
+</svg>
