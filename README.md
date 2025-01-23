@@ -29,11 +29,11 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/TheAnilPaneru/personal-portfolio
    ```
 2. **Navigate to the project directory**:
    ```bash
-   cd your-repo-name
+   cd personal-portfolio
    ```
 3. **Open the project**:
    - Open the `index.html` file in your preferred web browser.
@@ -44,16 +44,6 @@ If you want to customize this portfolio for your own use, follow these steps:
 
 1. **Update Personal Information**:
    - Modify the `index.html` file to update your name, bio, skills, and other personal details.
-   - Update the `about.html` file to reflect your personal story, experience, and education.
-
-2. **Update Portfolio Projects**:
-   - Edit the `portfolio.html` file to add or remove projects. Update the project titles, descriptions, and links as needed.
-
-3. **Update Contact Information**:
-   - Modify the `contact.html` file to update your email, phone number, and social media links.
-
-4. **Styling**:
-   - Customize the `styles.css` file to change the colors, fonts, and overall design to match your personal brand.
 
 ## Contributing
 
